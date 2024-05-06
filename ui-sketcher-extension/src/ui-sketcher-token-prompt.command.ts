@@ -1,6 +1,6 @@
 import * as vscode from "vscode";
 
-const OPENAI_API_TOKEN_REGEX = /^sk-\w{48}$/;
+const OPENAI_API_TOKEN_REGEX = /^(sk|sk-proj)-\w{48}$/;
 
 export class UiSketcherTokenPrompt {
   public constructor(
